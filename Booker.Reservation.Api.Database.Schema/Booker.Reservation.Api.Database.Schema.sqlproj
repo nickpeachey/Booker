@@ -3,7 +3,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <Name>Booker.Reservation.Api.Database</Name>
+    <Name>Booker.Reservation.Api.Database.Schema</Name>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectVersion>4.1</ProjectVersion>
     <ProjectGuid>{8f8bb553-4606-4023-bfd6-6f27895dcdc2}</ProjectGuid>

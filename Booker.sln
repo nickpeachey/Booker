@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31410.357
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booker.Reservation.Api", "Booker.Reservation.Api\Booker.Reservation.Api.csproj", "{E47C8E68-113F-4F04-ABC3-B0E35CB800C6}"
 EndProject
-Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Booker.Reservation.Api.Database", "Booker.Reservation.Api.Database\Booker.Reservation.Api.Database.sqlproj", "{8F8BB553-4606-4023-BFD6-6F27895DCDC2}"
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "Booker.Reservation.Api.Database.Schema", "Booker.Reservation.Api.Database\Booker.Reservation.Api.Database.Schema.sqlproj", "{8F8BB553-4606-4023-BFD6-6F27895DCDC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booker.Reservation.Api.Database", "Booker.Reservation.Api.Database\Booker.Reservation.Api.Database.csproj", "{87D4C143-2C0C-4514-AF09-A33615551D14}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -23,6 +25,10 @@ Global
 		{8F8BB553-4606-4023-BFD6-6F27895DCDC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8F8BB553-4606-4023-BFD6-6F27895DCDC2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{8F8BB553-4606-4023-BFD6-6F27895DCDC2}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{87D4C143-2C0C-4514-AF09-A33615551D14}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87D4C143-2C0C-4514-AF09-A33615551D14}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87D4C143-2C0C-4514-AF09-A33615551D14}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87D4C143-2C0C-4514-AF09-A33615551D14}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
