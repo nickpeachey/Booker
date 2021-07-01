@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  booker.reservation.api:
+    image: ${DOCKER_REGISTRY-}bookerreservationapi
+    build:
+      context: .
+      dockerfile: Booker.Reservation.Api/Dockerfile
